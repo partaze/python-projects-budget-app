@@ -4,7 +4,7 @@ class Category:
   This class is part of a budget app which instantiates object
   of different budget categories such as food,entertainment etc.
   It keeps tracks of all deposits and withdrawals in a ledger which 
-  it then returns as a string."""
+  it then returns as a string which can be visually displayed."""
 
   def __init__(self,name=""):
     """Attributes
